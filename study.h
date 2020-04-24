@@ -1,5 +1,10 @@
+#ifndef STDBOOL_H
 #include <stdbool.h>
+#endif
+
+#ifndef TIME_H
 #include <time.h>
+#endif
 
 char *readLine(void);
 void flushInputBuffer(void);
@@ -11,8 +16,7 @@ char *getDate(const Time_tm *);
 char *getTime(const Time_tm *);
 time_t compareTime(Time_tm *, Time_tm *);
 
-typedef struct event
-{
+typedef struct event {
     bool active;
     char *name;
     char *details;
@@ -26,8 +30,7 @@ Event *setEvent(Event *, char *, char *, char *, Time_tm *);
 Event *inputEvent(void);
 void printEvent(Event *);
 
-typedef struct eventList
-{
+typedef struct eventList {
     struct event *head;
     int size;
 } EventList;
@@ -38,8 +41,7 @@ void insertEvent(EventList *, Event *);
 void insertEventAt(EventList *, Event *, int);
 void printEventList(EventList *);
 
-typedef struct course
-{
+typedef struct course {
     bool active;
     char *code;
     char *name;
@@ -55,8 +57,7 @@ Course *setCourse(Course *, char *, char *, char *, float, EventList *, EventLis
 Course *inputCourse(void);
 void printCourse(Course *);
 
-typedef struct courseList
-{
+typedef struct courseList {
     struct course *head;
     int size;
 } CourseList;
