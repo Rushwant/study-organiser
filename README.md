@@ -3,6 +3,8 @@ a study organiser written in c
 
 ----------------------------------
 
+### ignore 
+
 STUDY ORGANISER     
 
     11:55 16-03-2020
@@ -24,35 +26,9 @@ STUDY ORGANISER
     5. INSTRUCTIONS
     X. EXIT
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
--priotity queue implementation
--linked lists
--course 
--setup page
--file handling
-
---REDUNDANT
-    /*
-    CLASSES TOMORROW
-    1.                      
-    2.
-    3.
-    */
----------------------------------------------------------------------
-STUDY ORGANISER: ASSIGNMENTS
-
-{DATE}
-
-VIEW
-COURSE ASSIGNMENTNAME
-CSD    2
-MAT    4
-
-1. view al ass
-2. edit
-3. return to main menu
-
-----------------------------------------------------------------------
-
+* priotity queue implementation
+* linked lists
+* course 
+* setup page
+* ~~file handling~~
 
